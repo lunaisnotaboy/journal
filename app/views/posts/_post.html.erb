@@ -1,0 +1,13 @@
+<div id="<%= dom_id post %>">
+  <p>
+    <strong>Author:</strong>
+    <%= post.author %>
+  </p>
+
+  <p>
+    <strong>Title:</strong>
+    <%= post.title %>
+  </p>
+
+  <%= Kramdown::Document.new(post.body).to_html.html_safe %>
+</div>
