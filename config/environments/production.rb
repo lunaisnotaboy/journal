@@ -86,8 +86,8 @@ Journal::Application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  # Set the default URL for Action Mailer.
-  config.action_mailer.default_options = { host: 'journal.guya.ml' }
+  # Set the default Action Mailer URL.
+  config.action_mailer.default_url_options = { host: 'journal.guya.ml' }
 
   # Make sure Action Mailer can send SMTP messages.
   config.action_mailer.smtp_settings = {
