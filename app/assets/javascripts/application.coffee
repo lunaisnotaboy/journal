@@ -1,5 +1,7 @@
 # The main CoffeeScript file
 
-# Import Bootstrap
+# Import Libraries
+#= require jquery
+#= require rails-ujs
 #= require popper
 #= require bootstrap

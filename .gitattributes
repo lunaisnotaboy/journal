@@ -2,6 +2,7 @@
 
 # Mark the various libraries as having been vendored.
 app/assets/javascripts/bootstrap.js linguist-vendored
+app/assets/javascripts/jquery.js linguist-vendored
 app/assets/javascripts/popper.js linguist-vendored
 app/assets/stylesheets/bootstrap/* linguist-vendored
 
