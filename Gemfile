@@ -5,6 +5,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.3'
 
+gem 'bcrypt_pbkdf', '~> 1.1', require: false
 gem 'bootsnap', '~> 1.12', require: false
 gem 'capistrano', '~> 3.17', require: false
 gem 'capistrano-passenger', '~> 0.2.1', require: false
@@ -12,6 +13,7 @@ gem 'capistrano-rails', '~> 1.6', '>= 1.6.2', require: false
 gem 'capistrano-rbenv', '~> 2.2', require: false
 gem 'coffee-rails', '~> 5.0'
 gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'ed25519', '~> 1.3', require: false
 gem 'kramdown', '~> 2.4'
 gem 'pg', '~> 1.4', '>= 1.4.1'
 gem 'puma', '~> 5.6', '>= 5.6.4'
