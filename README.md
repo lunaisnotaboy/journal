@@ -1,7 +1,6 @@
 # Journal
 
-A small application for therapist's patients to put daily thoughts
-and experiences to view at the next session.
+A small application to put your daily thoughts.
 
 ## Requirements
 
