@@ -5,6 +5,8 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 /.bundle
+/.vscode/*
+!/.vscode/extensions.json
 /log/*
 /tmp/*
 !/log/.keep
@@ -14,3 +16,4 @@
 !/tmp/pids/.keep
 /public/assets
 /config/master.key
+/vendor/various

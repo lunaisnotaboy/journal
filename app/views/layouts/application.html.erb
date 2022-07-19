@@ -9,10 +9,18 @@
 
     <title>Journal</title>
 
-    <%= stylesheet_link_tag 'application' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
   </head>
 
   <body>
+    <% if alert %>
+      <p class="alert"><%= alert %></p>
+    <% end %>
+    <% if notice %>
+      <p class="notice"><%= notice %></p>
+    <% end %>
+
     <%= yield %>
   </body>
 </html>
