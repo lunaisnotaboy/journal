@@ -1,5 +1,13 @@
 # See https://git-scm.com/docs/gitattributes for more about git attribute files.
 
+# Mark the various libraries as having been vendored.
+app/assets/javascripts/bootstrap.js linguist-vendored
+app/assets/javascripts/popper.js linguist-vendored
+app/assets/stylesheets/bootstrap/* linguist-vendored
+
+# Mark the binstubs as having been generated.
+bin/* linguist-generated
+
 # Mark the database schema as having been generated.
 db/schema.rb linguist-generated
 
